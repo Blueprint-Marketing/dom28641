@@ -1,0 +1,109 @@
+.explore_wrapper {
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+
+.explore_wrapper .bdp-post-image .bdp-wrapper-like {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: auto;
+}
+
+.bdp-wrapper-like .bdp-like-button {
+    font-size: 16px;
+}
+
+.post-content-area {
+    padding: 15px;
+}
+
+.post-content-area .blog_header {
+    text-align: center;
+}
+
+.post-content-area .post_content .post-right-box {
+    background: rgba(238,238,238,0.5);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    border-radius: 10px;
+    float: left;
+    padding: 15px;
+    margin: 0 15px 10px 0;
+    width: 40%;
+}
+
+.metadatabox div.loader{
+    margin: 0;
+}
+
+.metadatabox div {
+    margin: 10px 0;
+}
+
+.metadatabox .post-share-div .share-this {
+    font-weight: bold;
+}
+
+.explore_wrapper.bdp_blog_template .metadatabox .social-component {
+    float: none;
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.explore.bdp_single .navigation.post-navigation {
+    clear: left;
+    float: none;
+}
+
+.explore.bdp_single .author-avatar-div {
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    clear: left;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.bdp_single.explore .author-avatar-div .avtar-img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.author-avatar-div  .author_content {
+    display: inline-block;
+    margin-left: 20px;
+    width: calc(100% - 175px);
+}
+
+.bdp_single.explore .author-avatar-div .avtar-img img {
+    width: 150px;
+}
+
+.bdp_single.explore .display_post_views p {
+    margin: 0 !important;
+}
+.bdp_single.explore .display_post_views {
+    text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+    .post-content-area .post_content .post-right-box {
+        width: 100%;
+    }
+    .bdp_single.explore .author-avatar-div .avtar-img {
+        text-align: center;
+    }
+    .bdp_single.explore .author-avatar-div img.avatar {
+        float: none;
+    }
+    .bdp_single.explore .author-avatar-div .author_content {
+        width: 100%;
+    }
+    .bdp_single.explore .author-avatar-div .author_content .social-component a {
+        float: none;
+    }
+
+}

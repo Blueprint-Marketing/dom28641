@@ -1,0 +1,525 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*Added Css*/
+
+.x-container .x-column.x-sm.cs-ta-left.x-1-1 {
+    display: none;
+}
+
+.page-id-155 p.checkout-coupon{
+	display:none;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    height: 55px;
+}
+
+span#select2-billing_country-container, span#select2-billing_state-container {
+    padding: 12px;
+    padding-left: 20px;
+}
+
+span.select2-selection__arrow {
+    padding-top: 50px;
+    padding-right: 35px;
+}
+
+.create-account {
+    margin-top: 40px;
+}
+
+.half{
+  display: none;
+}
+
+table.certificates_list tbody tr th:nth-child(3) {
+    display: none;
+}
+
+div#learndash_post_178 table.certificates_list tbody tr th a, div.learndash-course-certificate a{
+ cursor:pointer;
+}
+
+div#learndash_post_178 table {
+    margin-bottom: 80px;
+}
+
+
+a.btn.btn-group {
+    display: block;
+    padding: 10px 0px;
+    background-color: #0c93a7;
+    width: 80%;
+    margin: auto;
+    margin-top: 14px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+div.woocommerce-MyAccount-content p{
+	display: none;
+}
+
+.page-id-202 a.str_btn {
+    display: none;
+}
+
+a.woocommerce-button {
+    width: 100px !important;
+    padding: 5px;
+}
+
+.profile_info li#order-active a {
+    background-color: #003380 !important;
+    color: #fff !important;
+    padding: 10px !important;
+    float: right !important;
+    display: block !important;
+    border-radius: 5px !important;
+}
+
+.profile_info li#order-active {
+    display: block !important;
+}
+
+body.postid-1418 .btn-blue {
+  display: none;
+}
+
+.wpProQuiz_resultsList a.my_btn3{
+    margin-left: 10px;
+    margin-top: 15px;  
+  	padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.wpProQuiz_resultsList a.my_btn3:hover.my_btn3 {
+    color: #fff;
+}
+
+
+button.pum-close.popmake-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #25b7dc !important;
+    color: #fff;
+    border: none;
+    padding: 5px;
+}
+
+#pum-1442 ._form-content {
+    background-color: #fff;
+    padding: 50px;
+}
+
+/**/
+
+.usaHtml5Mapbottom.htmlMapResponsive {
+  width: 100% !important;
+  max-width: 1060px;
+}
+
+.page-id-3859 p {
+    margin: 0 0 0.5em;
+}
+
+.eapps-pricing-table-column-1 .eapps-pricing-table-column-features-container .eapps-pricing-table-column-features-item:nth-child(4) span {
+    font-size: 5px;
+    visibility: hidden;
+}
+
+.eapps-pricing-table-column-2 {
+    box-shadow: 0 0 30px 6px rgba(47, 47, 47, 0.3215686274509804) !important;
+}
+
+
+
+.eapps-pricing-table-column {
+    z-index: 0 !important;
+}
+
+.modal {
+      padding-top: 150px;
+    }
+
+.btn-right a#purchaseBtn {
+    width: 20% !important;
+    float: right;
+    display: inline-block;
+    margin: 35px 0px 10px 0px;
+}
+
+.btn-right {
+    width: 100%;
+    display: inline-block;
+}
+
+.page-id-2292 div#top {
+    background-image: url(https://foodhandlersolutions.com/wp-content/uploads/2018/03/background-profile.png);
+      background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.test_centerhold a {
+  color: #0088aa;
+}
+
+p.red strong {
+   color: #003380;
+}
+
+hr.marginfixer, .half-field hr {
+    border-top: 1px solid #9da1a73d;
+}
+
+.btn-right a {
+    color: #fff;
+}
+
+.sfh-step-group2 .sfh-step2 {
+    width: 360px;
+    float: left;
+}
+
+.sfh-step-group2 {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.sfh-step2 img {
+    width: 50%;
+}
+
+.space {
+    margin: 50px;
+}
+
+.sfh-step2 p.red-round {
+    background-color: #0088aa;
+    color: #fff;
+    padding: 15px 20px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border-radius: 55px;
+    border: 7px solid #00bdd0;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+hr.hr_line {
+    border-top: 12px solid #e2dcdc;
+    width: 60%;
+    position: absolute;
+    z-index: -1;
+    left: 250px;
+    margin-top: 42px;
+}
+
+.label-wrapp {
+    display: inline-block;
+}
+
+.legend2 {
+    padding: 0;
+    display: flex;
+    margin-top: -50px !important;
+}
+
+h1#option-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.eapps-pricing-table-column-button-caption, .legend2 {
+    display: none;
+}
+
+a.btn.btn-success {
+    padding: 10px 25px !important;
+}
+
+
+@media only screen and (min-width: 1127px) {
+    .sfh-legend {
+      width: 78% !important;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+    .sfh-legend {
+    	width: 78% !important;
+	}
+    .modal-content{
+        width: 50%;
+    }
+
+    .modal a#purchaseBtn {
+        float: right;
+        width: 28% !important;
+    }
+
+    input#zipcode {
+        width: 70%;
+    }
+      .modal-content h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .sfh-legend {
+    	width: 78% !important;
+	}
+    .modal-content{
+        width: 80%;
+    }
+
+    .modal a#purchaseBtn {
+        float: right;
+        width: 28% !important;
+    }
+
+    input#zipcode {
+        width: 70%;
+    }
+      .modal-content h1 {
+        font-size: 25px;
+    }
+}
+  
+  @media only screen and (max-width: 549px) {
+  .modal-content h1 {
+        font-size: 25px;
+    }
+    input#zipcode {
+        width: 100%;
+    }
+    .modal a#purchaseBtn {
+        width: 100% !important;
+        padding: 4px;
+    } 
+  }
+
+@media (max-width: 1277px) and (min-width: 926px){
+  .legend2 {
+      padding: 0 15.5vw;
+  }
+}
+
+@media (max-width: 1277px) and (min-width: 320px){
+  .sfh-step-group2 .sfh-step2 {
+      width: 28vw;
+  }
+  
+   hr.hr_line {
+      left: 17vw;
+  }
+ 
+}
+
+@media (max-width: 925px) and (min-width: 320px){
+  .legend2 {
+      padding: 0 5.5vw;
+  }
+  .sfh-step2 h3 {
+      font-size: 3.8vw;
+  }
+  .sfh-legend2 a.btn.btn-success {
+      top: -23px !important;
+  }
+
+  .legend2 {
+      margin-top: -25px !important;
+  }
+  .entry-content {
+      margin-top: 28.5px;
+  }
+}
+
+@media (max-width: 425px){
+  ul#lgnd li {
+    display: flex;
+    float: none;
+    margin-right: 0;
+  }
+   .sfh-legend2 h1 {
+      font-size: 6.3vw;
+  }
+}
+
+p.wpProQuiz_certificate a.btn-blue{
+  
+}
+
+.ld-entry-title a:nth-of-type(1){
+   display: none;
+}
+.display-inline{
+ 	display: inline !important; 
+}
+
+#course-1-6219.list_arrow{
+ 	background: none !important; 
+}
+
+p.last-modified {
+    display: none;
+}
+.seal{
+  display: none !important;
+}
+.regnow{
+  text-align:center;
+  margin-bottom: 20px;
+}
+header{
+  margin-bottom: 0 !important;
+}
+.upgradelogin{
+  width: 680px;
+  margin: auto;
+}
+.upgradelogin button{
+  color: #fff;
+  background-color: #0088aa;
+  border-color: #0088aa;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+.upgradelogin button:hover{
+  color: #fff;
+  background-color: #1fa6c7;
+  border-color: #1fa6c7;
+}
+.state-content {
+    margin-top: 60px;
+}
+
+.ubermenu-main {
+    max-width: 70% !important;
+}
+
+@media only screen and (max-width:768px) {
+   div#learndash_post_350 h3 {
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (max-width:425px) {
+  article#post-3859 a.btn.btn-success {
+    padding: 10px 18px !important;
+    font-size: 15px;
+}
+   #pum-1442 ._form-content {
+    background-color: #fff;
+    padding: 0px;
+}
+div#popmake-1442 input[type="text"] {
+    width: 100%!important;
+    font-size: 12px;
+}
+#_form_5C19AFD746D57_ {
+    position: relative;
+    text-align: left;
+    margin: 0px auto 0;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff !important;
+    border: 0px solid #b0b0b0 !important;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    color: #000 !important;
+}
+
+div#popmake-1442 ._inline-style {
+    margin: 0px 0 0 !important;
+}
+
+#_form_5C19AFD746D57_ input[type="text"] {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 1.3em;
+    -webkit-appearance: none;
+}
+
+div#popmake-1442 ._inline-form._inline-style ._inline-style._button-wrapper {
+    margin-top: 0px !important;
+    margin-left: 0 !important;
+}
+
+div#popmake-1442 ._form-title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+.pum-theme-35 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
+    height: auto;
+    width: auto;
+    left: auto;
+    right: 5px!important;
+    bottom: auto;
+    top: 5px!important;
+    top: 7px!important;
+    padding: 8px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 14px;
+    border: 1px none #ffffff;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 );
+    text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 );
+    background-color: rgba( 0, 183, 205, 1.00 );
+  
+	}
+  div#popmake-1442 {
+    top: 60px!important;
+}
+  #learndash_next_prev_link a.prev-link {
+    position: absolute;
+    top: 71px;
+}
+}
+@media only screen and (max-width:375px) {
+  article#post-3859 a.btn.btn-success {
+    padding: 10px 15px !important;
+    font-size: 12px;
+   }
+  
+}
+
+@media only screen and (max-width:320px) {
+  p#learndash_next_prev_link a.prev-link, p#learndash_next_prev_link a.next-link {
+      color: #fff;
+      background-color: #d9534f;
+      border-color: #d43f3a;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      display: block;
+      width: 110px!important;
+      font-size: 12px;
+  }
+}
+
+
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->

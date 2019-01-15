@@ -1,0 +1,56 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.label-wrapp div:nth-child(3) .tooltiptext, .label-wrapp div:nth-child(4) .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #00bdd0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 105px;
+    left: 44.5%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.label-wrapp div:nth-child(3) .tooltiptext::after, .label-wrapp div:nth-child(4) .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00bdd0 transparent transparent transparent;
+}
+
+.label-wrapp div:nth-child(4) .tooltiptext {
+  left: 76%;
+}
+
+.label-wrapp div:nth-child(3):hover .tooltiptext, .label-wrapp div:nth-child(4):hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+p.red-round {
+    cursor: pointer;
+}
+
+.label-wrapp div:nth-child(3) p.red-round, .label-wrapp div:nth-child(4) p.red-round {
+    background-color: #cac8c8;
+    border: 7px solid #e2dcdc;
+}
+  
+@media only screen and (max-width: 450px) {
+.label-wrapp div:nth-child(3) .tooltiptext, .label-wrapp div:nth-child(4) .tooltiptext {
+    top: 180px;
+    left: 30%;
+  }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

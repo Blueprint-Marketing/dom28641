@@ -1,0 +1,8 @@
+.editor-block-list__layout div[data-type="learndash/ld-visitor"],
+.editor-block-list__layout div[data-type="learndash/ld-student"],
+.editor-block-list__layout div[data-type="learndash/ld-course-complete"],
+.editor-block-list__layout div[data-type="learndash/ld-course-inprogress"],
+.editor-block-list__layout div[data-type="learndash/ld-course-notstarted"],
+.editor-block-list__layout div[data-type="learndash/ld-group"] { 
+	border: 2px solid #e6eaea; 
+}

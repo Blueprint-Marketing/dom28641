@@ -1,0 +1,77 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.postid-178 div#learndash_profile{
+  display: none;
+}
+.postid-178 .myprofile{
+  margin-bottom: 25px;
+}
+.page-id-202 .myprofile .myprofile-btn,.page-id-202 .examstudy{
+  display: none;
+}
+.myprofile .myprofile-btn{
+  background-color: #0088aa;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+.exam-print-card:hover {
+  color: #fff;
+}
+.exam-print-card{
+  background-color: #0088aa;
+  color: white;
+  padding: 12px;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+.examstudy .myprofile,.examstudy .examsched{
+  display: inline;
+}
+.examstudy .examsched{
+  float: right;
+}
+.examsched-btn{
+  color: #fff;
+  background-color: #0088aa;
+  border-color: #0088aa;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.examsched-btn:hover {
+  color: #fff;
+  background-color: #1fa6c7;
+  border-color: #1fa6c7;
+}
+.examstudy{
+  display: block;
+  margin-bottom: 20px;
+}
+.postid-5960 .examsched{
+  float:right; 
+}
+.postid-1416 .wpProQuiz_certificate,.postid-1418 .wpProQuiz_certificate{
+  display: none !important;
+}
+@media only screen and (max-width: 760px){
+  .page-id-202 .ld-entry-content.entry-content:nth-of-type(4) {
+      margin-top: 60px !important;
+  }
+  .page-id-202 p.wppb-front-end-logout {
+      float: left !important;
+  }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

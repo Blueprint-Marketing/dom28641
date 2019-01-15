@@ -1,0 +1,11 @@
+2019-01-01T23:51:12+00:00 CRITICAL Uncaught Error: Call to a member function home_page_url() on null in /dom28641/wp-content/plugins/cornerstone/includes/classes/admin/class-updates.php:135
+Stack trace:
+#0 /wordpress-4.9.9/wp-includes/class-wp-hook.php(288): Cornerstone_Updates->pre_set_site_transient_update_plugins(Object(stdClass))
+#1 /wordpress-4.9.9/wp-includes/plugin.php(203): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 /wordpress-4.9.9/wp-includes/option.php(1750): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 /wordpress-4.9.9/wp-includes/update.php(296): set_site_transient('update_plugins', Object(stdClass))
+#4 /dom28641/wp-content/plugins/wordfence/lib/wfUpdateCheck.php(98): wp_update_plugins()
+#5 /dom28641/wp-content/plugins/wordfence/lib/wfUpdateCheck.php(39): wfUpdateCheck->checkPluginUpdates(false)
+#6 /dom28641/wp-content/plugins/wordfence/lib/wfScanEngine.php(1522): wfUpdateCheck->checkAllUpdates(false)
+#7 /dom28641/wp-content/plugins/wordfence/lib/wfScanEngine.php(352): wfScanEngine->scan_oldVe in /dom28641/wp-content/plugins/cornerstone/includes/classes/admin/class-updates.php on line 135
+

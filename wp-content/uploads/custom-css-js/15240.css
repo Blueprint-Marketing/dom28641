@@ -1,0 +1,10 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+tr#sfwd_lms-update{
+    display: none;
+}
+
+tr[data-plugin="sfwd-lms/sfwd_lms.php"] {
+    display: none;
+}</style>
+<!-- end Simple Custom CSS and JS -->

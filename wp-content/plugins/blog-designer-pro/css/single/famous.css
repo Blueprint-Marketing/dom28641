@@ -1,0 +1,98 @@
+.bdp_single.famous .bdp_blog_template,
+.bdp_single.famous .post-navigation,
+.bdp_single.famous .author-avatar-div,
+.bdp_single.famous .related_post_wrap,
+.bdp_single.famous .comments-area {
+    display: inline-block;
+    margin: 0 0 40px;
+    width: 100%;
+    position: relative;
+}
+.famous > .category-link,
+.famous > .post-title,
+.famous > .post-meta,
+.famous > .post-share-div,
+.famous > .bdp-post-image {
+    display: inline-block;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.bdp_single.famous .bdp_blog_template .post_content {
+    padding: 0;
+    margin: 0 0 15px;
+}
+.bdp_single.famous .post-footer-meta {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 15px;
+    width: 100%;
+}
+.famous .post-footer-meta .tags {
+    display: inline-block;
+}
+.famous .post-footer-meta .display_post_views {
+    width: auto;
+    float: right;
+}
+.single .bdp_single.famous .navigation.post-navigation {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.famous .navigation.post-navigation .previous-post {
+    border-right: 1px solid #dddddd;
+}
+.famous .author-avatar-div .avtar-img {
+    display: inline-block;
+}
+.famous .author-avatar-div .avtar-img img {
+    border-radius: 5px;
+    width: 100%;
+}
+.famous .author-avatar-div .author_content {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+    width: calc(100% - 180px);
+}
+.bdp_single.famous .related_post_wrap,
+.bdp_single.famous .comments-area {
+    border-top: 1px solid #dddddd;
+    padding: 30px 0 0;
+}
+.bdp_single.famous .comments-area .comments-title {
+    margin: 0 0 30px;
+    padding: 0;
+}
+.bdp_single.famous .comments-area .comment-list {
+    border: none;
+}
+.bdp_single.famous .comments-area .comment-respond {
+    border-top: 1px solid #dddddd;
+    margin: 30px 0 0;
+    padding: 0;
+}
+.bdp_single.famous .post-share-div > div {
+    display: inline-block;
+    float: none;
+    margin-right: 10px;
+    width: auto;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 767px) {
+    .famous .post-footer-meta .display_post_views {
+        width: 100%;
+        margin-top: 15px;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 480px) {
+    .famous .author-avatar-div .author_content {
+        margin-left: 0;
+        width: 100%;
+    }
+    .famous .navigation.post-navigation .previous-post {
+        border-bottom: 1px solid #dddddd;
+        border-right: 0;
+    }
+}

@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#wprtabs_sectionid .add_tabs{
+}
+#wprtabs_sectionid .add_tabs ul{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+#wprtabs_sectionid .add_tabs ul li{
+	clear:both;
+}
+#wprtabs_sectionid .add_tabs ul li{
+	border-top:1px solid #CCC;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#wprtabs_sectionid .add_tabs ul li:nth-child(1),
+#wprtabs_sectionid .add_tabs ul li:nth-child(2){
+	border:none;
+}
+#wprtabs_sectionid .add_tabs a{
+	float:right;
+	color:#a00;
+	font-size:12px;
+	cursor:pointer;
+}
+#wprtabs_sectionid .add_tabs textarea,
+#wprtabs_sectionid .tabs_settings textarea{
+	width:100%;
+}
+#wprtabs_sectionid .tabs_settings textarea{
+	height:200px;
+}
+#wprtabs_sectionid .add_tab{
+	float:right;
+}
+.wprtabs_shortcodes_list{
+	display:none;
+}
+.wprtabs_shortcodes{
+	float:right;
+	cursor:pointer;
+	font-size:18px;
+	margin: 4px 0 0 0;
+}
+.wprtabs_shortcodes_list ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.wprtabs_shortcodes_list ul h2{
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprtabs_shortcodes_list > ul ul li{
+	list-style: inside none circle;
+}
+.wprtabs_shortcodes_list > ul > li{
+	float:left;
+	margin-right: 10px;
+}

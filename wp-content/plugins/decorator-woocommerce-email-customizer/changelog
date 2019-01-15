@@ -1,0 +1,16 @@
+Version 1.0.3, 8 May 2017
+------------------------------------------------------------------------------------
+* Fix - Warning related to second parameter of date()
+* Dev - New filter hook rp_decorator_option_value to override any value
+
+Version 1.0.2, 4 April 2017
+------------------------------------------------------------------------------------
+* Fix - Styles are not always applied to order items table
+
+Version 1.0.1, 25 February 2017
+------------------------------------------------------------------------------------
+* Tweak - Improved compatibility with WooCommerce 2.7
+
+Version 1.0, 12 December 2016
+------------------------------------------------------------------------------------
+* Initial release

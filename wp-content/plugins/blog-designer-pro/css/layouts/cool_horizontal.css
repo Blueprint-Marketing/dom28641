@@ -1,0 +1,170 @@
+.horizontal .post_content_wrap {
+    background: #fff;
+}
+.horizontal .post-title {
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+    word-wrap: break-word;
+}
+.horizontal .label_featured_post {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.horizontal .label_featured_post span {
+    color: #000000;
+    background: transparent;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+.horizontal .post-title .mdate {
+    font-size: 14px;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    color: #666;
+}
+.logbook .lb-line,
+#content .logbook .lb-line{
+    width: 100% !important;
+}
+.logbook.flatLine #lb_line_right,
+#content .logbook.flatLine #lb_line_right{
+    right: -7px !important;
+    z-index: 1;
+}
+.logbook.flatLine #lb_line_left,
+#content .logbook.flatLine #lb_line_left{
+    left: -7px !important;
+    z-index: 1;
+}
+.lb-items-wrapper .lb-items > .lb-line {
+    display: none !important;
+}
+.horizontal .post-title .mdate a:hover {
+    color: #000;
+}
+.horizontal .photo.post-image {
+    margin-bottom: 0;
+}
+.horizontal .photo.post-image:hover .bdp-pinterest-share-image {
+    visibility: visible;
+    opacity: 1;
+}
+.horizontal .post-content-area {
+    background: #fff;
+    padding: 0 10px 20px;
+}
+.horizontal .read-more-div {
+    text-align: center;
+    margin: 20px 10px;
+}
+.horizontal .read-more-div a.more-tag {
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+.horizontal .metadatabox {
+    padding: 15px 0;
+    text-align: center;
+}
+.horizontal .metadatabox span {
+    padding: 0 10px;
+}
+
+.horizontal .metadatabox span.comments-link {
+    padding: 0;
+}
+
+.horizontal .metadatabox span i {
+    margin-right: 5px;
+}
+.horizontal .metadatabox span.bdp-wrapper-like {
+    width: auto;
+}
+.horizontal .metadatabox .bdp-wrapper-like span#bdp-wrapper-like,
+.horizontal .metadatabox .bdp-wrapper-like span.bdp-count {
+    padding: 0;
+}
+.bdp_blog_template.horizontal .post_content:first-letter{
+    float: none;
+    line-height: normal;
+}
+.horizontal .post_content {
+    position: relative;
+    padding: 10px 15px 0;
+}
+.horizontal .blog_footer {
+    background: #fff;
+    border-bottom: 1px solid;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+}
+.horizontal .blog_footer .tags,
+.horizontal .blog_footer .categories {
+    text-align: center;
+    padding: 0 15px;
+}
+.horizontal .blog_footer .tags a,
+.horizontal .blog_footer .categories a {
+    color: #e21130;
+}
+.horizontal .blog_footer .tags a:hover,
+.horizontal .blog_footer .categories a:hover {
+    color: #000;
+}
+.horizontal .blog_footer .tags i,
+.horizontal .blog_footer .categories i {
+    margin-right: 5px;
+}
+.horizontal .blog_footer .tags a,
+.horizontal .blog_footer .categories a {
+    color: #e21130;
+    margin-left: 3px;
+}
+.horizontal .blog_footer .social-component {
+    display: inline-block;
+    float: none;
+}
+.bdp_blog_template.horizontal .social-component{
+    text-align: center;
+    padding: 0 15px;
+}
+.bdp_blog_template.horizontal .social-component .social-share{
+    float: none;
+}
+.horizontal .blog_footer_social_div {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+}
+.cool_horizontal .author-avatar-div {
+    background: #fff;
+    min-height: 180px;
+    padding: 15px;
+}
+.cool_horizontal .avtar-img {
+    float: left;
+    width: 150px;
+}
+.cool_horizontal .bdp_blog_template img.avatar {
+    border-radius: 0;
+}
+.cool_horizontal .author_content {
+    display: inline-block;
+    padding-left: 15px;
+    width: calc(100% - 150px);
+}
+@media screen and (max-width: 480px) {
+    .cool_horizontal .author-avatar-div {
+        padding: 15px 0;
+    }
+    .cool_horizontal.bdp_archive .author-avatar-div .author_content {
+        padding: 15px;
+        float: none;
+    }
+}

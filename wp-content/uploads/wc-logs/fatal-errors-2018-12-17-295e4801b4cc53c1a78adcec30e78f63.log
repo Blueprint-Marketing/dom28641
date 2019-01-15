@@ -1,0 +1,11 @@
+2018-12-16T21:41:01+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /dom28641/wp-content/plugins/woocommerce-smart-coupons/includes/class-sc-purchase-credit.php:228
+Stack trace:
+#0 /wordpress-4.9.9/wp-includes/class-wp-hook.php(286): WC_SC_Purchase_Credit->override_price_before_calculate_totals(Object(WC_Cart))
+#1 /wordpress-4.9.9/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /wordpress-4.9.9/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /dom28641/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1205): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 /dom28641/wp-content/plugins/change-quantity-on-checkout-for-woocommerce/change-quantity-on-checkout-woocommerce.php(124): WC_Cart->calculate_totals()
+#5 /wordpress-4.9.9/wp-includes/class-wp-hook.php(286): Change_Quantity_On_Checkout->cqoc_update_order_review('')
+#6 /wordpress-4.9.9/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /wordpress-4.9.9/wp-includes/plugin.php(453): WP_Hook->do_acti in /dom28641/wp-content/plugins/woocommerce-smart-coupons/includes/class-sc-purchase-credit.php on line 228
+
