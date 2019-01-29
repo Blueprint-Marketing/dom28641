@@ -1,1 +1,0 @@
-../wordpress-4.9.9/wp-comments-post.php
